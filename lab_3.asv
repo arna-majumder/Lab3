@@ -1,0 +1,13 @@
+clc;
+clear all;
+close all;
+vpa(pi)
+syms x
+solve(x^4 == 1)
+syms x y
+log(x)+log(y)
+syms t
+z=t*sin(5*t);
+p=t*cos(5*t);
+fplot(z,p)
+grid on
